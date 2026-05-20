@@ -1,0 +1,240 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=1.8cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+\definecolor{primary}{RGB}{30,30,30}
+
+\titleformat{\section}
+{\large\bfseries\color{primary}}
+{}{0em}{}[\titlerule]
+
+\pagestyle{empty}
+
+\begin{document}
+
+%===========================================================
+% HEADER
+%===========================================================
+
+\begin{center}
+
+{\Huge \textbf{Victoria López Valencia}} \\[6pt]
+
+{\large QA Automation Lead | SDET | QA Architect} \\[10pt]
+
+Alicante, Spain \\
+\href{mailto:victoria.valencia.86@gmail.com}{victoria.valencia.86@gmail.com} \\
+\href{https://pikyvictoria.github.io/}{Portfolio} \quad | \quad
+\href{https://victoriavalencia86.itch.io/}{Itch.io}
+
+\end{center}
+
+\vspace{0.5cm}
+
+%===========================================================
+% SUMMARY
+%===========================================================
+
+\section*{Professional Summary}
+
+Senior Quality Engineering professional with 10+ years of experience designing scalable automation architectures, leading QA initiatives, and modernizing testing processes in SaaS and enterprise environments.
+
+Strong technical background in Playwright, TypeScript, CI/CD, API automation, and quality engineering strategy. Proven experience building maintainable automation frameworks, driving shift-left testing practices, and improving release confidence through scalable automation ecosystems.
+
+Focused on evolving QA into a continuous engineering quality process from ideation to production.
+
+%===========================================================
+% SKILLS
+%===========================================================
+
+\section*{Core Skills}
+
+\textbf{Automation \& Testing:}
+Playwright, TypeScript, JavaScript, Selenium, TestCafe, Cypress, Rest Assured, JUnit, API Testing, E2E Testing, Regression Testing, Component Testing
+
+\vspace{0.2cm}
+
+\textbf{Quality Engineering:}
+Test Automation Architecture, Page Object Model (POM), Shift-Left Testing, CI/CD Testing, Parallel Execution, Release-on-Demand Strategy, Flaky Test Analysis
+
+\vspace{0.2cm}
+
+\textbf{DevOps \& Tooling:}
+Docker, Bitbucket Pipelines, GitLab CI, Jenkins, SonarQube, ESLint, AWS QuickSight, Jira, Confluence, Postman
+
+\vspace{0.2cm}
+
+\textbf{Leadership \& Agile:}
+QA Leadership, Technical Mentoring, Scrum, Agile Methodologies, Stakeholder Collaboration, Process Improvement
+
+%===========================================================
+% EXPERIENCE
+%===========================================================
+
+\section*{Professional Experience}
+
+\textbf{IRIUSRISK — QA Manager} \hfill Dec 2025 -- Present \\
+Remote, Spain
+
+\begin{itemize}[leftmargin=*, itemsep=0.3em]
+    \item Lead and mentor a team of 7 QA Engineers across multiple product squads and platform initiatives.
+    \item Define QA strategy aligned with Platform Engineering roadmap.
+    \item Create and monitor QA KPIs related to automation coverage, flaky tests, failed executions, and release quality.
+    \item Develop and analyze AWS QuickSight dashboards for quality visibility and reporting.
+    \item Collaborate with engineering leadership to improve testing processes and quality standards.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\newpage
+
+\textbf{IRIUSRISK — Senior QA Engineer} \hfill Apr 2022 -- Nov 2025 \\
+Remote, Spain
+
+\begin{itemize}[leftmargin=*, itemsep=0.3em]
+
+    \item Architected and developed a scalable Playwright + TypeScript automation framework based on a robust Page Object Model (POM) architecture focused on maintainability, reusability, readability, and parallel execution.
+
+    \item Led the migration from an obsolete TestCafe + JavaScript framework to a modern Playwright + TypeScript ecosystem.
+
+    \item Built and maintained automated E2E, regression, sanity, and API testing suites.
+
+    \item Established a shift-left quality engineering strategy by integrating QA activities from the earliest stages of product initiatives, including ideation, refinement, and development planning.
+
+    \item Collaborated proactively with Product, Frontend, Backend, and Platform Engineering teams to integrate quality practices throughout the SDLC.
+
+    \item Improved execution performance through parallel Playwright workers and optimized CI/CD execution strategies.
+
+    \item Integrated automated testing pipelines into Bitbucket CI/CD workflows for feature, release, and main branches.
+
+    \item Introduced SonarQube and ESLint quality gates into pull request workflows.
+
+    \item Promoted quality ownership across squads with the long-term objective of enabling stable release-on-demand processes.
+
+    \item Delivered internal technical training sessions focused on Playwright adoption and automation best practices.
+
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{DEVCENTER — QA Lead} \hfill Apr 2021 -- Apr 2022 \\
+Alicante, Spain
+
+\begin{itemize}[leftmargin=*, itemsep=0.3em]
+    \item Managed a distributed QA team across multiple projects.
+    \item Defined QA strategies and automation approaches tailored to project requirements.
+    \item Integrated SonarQube quality analysis into CI pipelines.
+    \item Created QA documentation and promoted software quality best practices.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{DEVCENTER — QA Engineer \& Scrum Master} \hfill Apr 2018 -- Apr 2021 \\
+Alicante, Spain
+
+\begin{itemize}[leftmargin=*, itemsep=0.3em]
+    \item Designed and developed automation solutions using Selenium, GingerSpec, Java, Cucumber, and Gherkin.
+    \item Built GitLab CI pipelines for automated test execution.
+    \item Worked as Scrum Master for a cross-functional Agile team of 10 members.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{SOPRA — QA Performance Test Engineer} \hfill Mar 2017 -- Mar 2018 \\
+Alicante, Spain
+
+\begin{itemize}[leftmargin=*, itemsep=0.3em]
+    \item Designed and executed performance testing strategies using JMeter.
+    \item Analyzed execution results and created performance testing reports.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{EMBARCADERO — Quality Assurance Engineer} \hfill Apr 2014 -- Aug 2016 \\
+Alicante, Spain
+
+\begin{itemize}[leftmargin=*, itemsep=0.3em]
+    \item Developed automated tests using C\#, Visual Studio, and Microsoft Coded UI.
+    \item Maintained Jenkins workflows and automated execution pipelines.
+    \item Worked with Oracle, SQL Server, MongoDB, MySQL, DB2, and Jira.
+\end{itemize}
+
+%===========================================================
+% EDUCATION
+%===========================================================
+
+\section*{Education}
+
+\textbf{Master’s Degree in Videogame Design \& Programming} \\
+Universitat Oberta de Catalunya \hfill 2025 -- Present
+
+\vspace{0.2cm}
+
+\textbf{Technical Engineering in Computer Management} \\
+University of Alicante \hfill 2006 -- 2013
+
+%===========================================================
+% CERTIFICATIONS
+%===========================================================
+
+\section*{Certifications}
+
+\begin{itemize}[leftmargin=*]
+    \item ISTQB Certified Tester Advanced Level – Test Automation Engineering (CTAL-TAE)
+    \item ISTQB Certified Tester Foundation Level (CTFL)
+    \item Professional Scrum Master I (PSM I)
+    \item SonarQube Fundamentals
+\end{itemize}
+
+%===========================================================
+% LANGUAGES
+%===========================================================
+
+\section*{Languages}
+
+\textbf{Spanish:} Native \\
+\textbf{English:} B2 Professional Working Proficiency
+
+
+%===========================================================
+% PORTFOLIO
+%===========================================================
+
+\section*{Technical Portfolio}
+
+\textbf{Personal Portfolio Website} \\
+\href{https://pikyvictoria.github.io/}{https://pikyvictoria.github.io/}
+
+\vspace{0.3cm}
+
+The portfolio showcases hands-on experimentation, automation architecture concepts, frontend development projects, and technical initiatives focused on modern Quality Engineering practices.
+
+\vspace{0.3cm}
+
+\textbf{Highlighted Areas}
+
+\begin{itemize}[leftmargin=*, itemsep=0.3em]
+
+    \item Playwright + TypeScript automation framework experimentation
+    
+    \item Scalable Page Object Model (POM) architecture approaches
+    
+    \item Frontend projects developed with modern web technologies
+    
+    \item Quality Engineering proof-of-concepts and tooling exploration
+    
+    \item CI/CD-oriented automation practices and execution strategies
+    
+    \item Personal Unity game development projects and technical experimentation
+
+\end{itemize}
+
+\end{document}
+
